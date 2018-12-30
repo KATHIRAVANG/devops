@@ -1,0 +1,10 @@
+Prerequest
+
+must have jdk/jre 1.8 exact version installed
+
+1) Download jenkins war from   http://mirrors.jenkins.io/war-stable/latest/jenkins.war
+2) mkdir jenkins
+3) cd jenkins
+4) java -jar jenkins.war --httpPort=8080 ( copy the  downloaded war to jenkins folder)
+5) http://localhost:8080
+6) 
