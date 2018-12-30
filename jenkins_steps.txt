@@ -5,6 +5,17 @@ must have jdk/jre 1.8 exact version installed
 1) Download jenkins war from   http://mirrors.jenkins.io/war-stable/latest/jenkins.war
 2) mkdir jenkins
 3) cd jenkins
-4) java -jar jenkins.war --httpPort=8080 ( copy the  downloaded war to jenkins folder)
+4) java -jar jenkins.war --httpPort=8080 ( copy the  downloaded war to jenkins folder). NoteDown the below log having password
+Please use the following password to proceed to installation:
+
+71bdd9a381954b939bc775a76573292f
+
+This may also be found at: C:\Users\username\.jenkins\secrets\initialAdminPassword
 5) http://localhost:8080
-6) 
+6) Enter the initalpassword and  choose default suggested plugins
+7) give prefered username and password
+8) Now create two repo's in github. one will have the api backend . other will have the testing logic
+9) apibackend and apitesting
+10) create pipeline with url - http://localhost:8080/pipeline-syntax/
+11) ssh-keygen -t rsa -b 4096 -C 
+
